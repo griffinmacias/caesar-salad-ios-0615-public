@@ -16,6 +16,29 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+//NSString *message = @"a";
+//    NSInteger key = 1;
+//    
+//    //If the key is divisible by 26 then return Message
+//    if (key % 26 == 0) {
+//        return message;
+//    } else {
+//        
+//        //Gets asciiCode from the first character's asciiCode
+//        NSInteger asciiCode = [message characterAtIndex:0];
+//        
+//        //Adds the offset to the asciiCode
+//        NSInteger newAsciiCode = asciiCode + key;
+//        
+//        
+//        //Converts the new newAsciiCode into a character
+//        NSString *newLetter = [NSString stringWithFormat:@"%c",newAsciiCode];
+//        
+//        
+//        NSLog(@"%@", newLetter);
+//
+//    
+//
     
     return YES;
 }
